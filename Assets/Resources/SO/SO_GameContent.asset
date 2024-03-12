@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f53e025342b74849997a7a64570d301, type: 3}
+  m_Name: SO_GameContent
+  m_EditorClassIdentifier: 
+  m_gameContentList:
+  - m_sprite: {fileID: 7482667652216324306, guid: 9995eb7d2acee59439e62aa21553268a, type: 3}
+    m_score: 10
+    m_percentage: 50
+  - m_sprite: {fileID: -2413806693520163455, guid: 5a9753000560dea48a13b004ecad55d8, type: 3}
+    m_score: 15
+    m_percentage: 30
+  - m_sprite: {fileID: 7482667652216324306, guid: 247e1f7dc55f0be46bc790410fca0234, type: 3}
+    m_score: 30
+    m_percentage: 20
