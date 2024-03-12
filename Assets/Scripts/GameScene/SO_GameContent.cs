@@ -7,8 +7,12 @@ namespace WHACKGAME
     public class AGameContent
     {
         [SerializeField] private Sprite m_sprite;
-        [SerializeField] private float m_score;
+        [SerializeField] private int m_score;
         [SerializeField, Range(0.0f, 100.0f)] private float m_percentage;
+
+        public Sprite GetSprite() => this.m_sprite;
+        public int GetScore() => this.m_score;
+        public float GetPercentage() => this.m_percentage;
     }
 
     [CreateAssetMenu(fileName = "SO_GameContent", menuName = "SO/SO_GameContent", order = 1)]
